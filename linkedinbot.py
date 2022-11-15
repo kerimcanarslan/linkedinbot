@@ -49,7 +49,7 @@ for i in range(1, 100):
     Bulunan butonlar içerisindeki text'lere bakıp filtreleme yaparız. 
     """
     for i in submit_button:
-        if i.text == "Bağlantı kur":
+        if i.text == "Bağlantı kur":    # Dilerseniz burada or "Takip Et" eklemesi yaparak Takip Et butonlarına da bastırabilirsiniz.
             i.click()  # bunlardan biriyse tıkla
 
             # Arada karşımıza çıkan "Davetiyeye not ekleyerek kişiselleştirebilirsiniz" penceresindeki "Gönder" butonuna tıklamak için
