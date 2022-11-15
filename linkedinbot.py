@@ -1,11 +1,11 @@
-#############
-# LIBRARIES
-#############
-
 # FURKAN AKDAĞ
 # KERİMCAN ARSLAN
 # MİUUl & VBO
 
+
+#############
+# LIBRARIES
+#############
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -13,6 +13,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 # PATH OLARAK DRIVER KENDİ BİLGİSAYARINDA HANGİ PATHSE ONU VERMELİSİN!!!
+# CHROMEDRİVER DOSYASI BİLGİSYARINIZDA MEVCUT DEĞİLSE SÜRÜMÜNÜZE UYGUN OLARAK İNDİRİN.
 
 driver_path = "/Users/kerimcanarslan/anaconda3/bin/chromedriver"
 driver = webdriver.Chrome(driver_path)
@@ -59,3 +60,6 @@ for i in range(1, 100):
                        g.click()
             except:  # Eğer pencere açılmazsa koda devam et
                  continue
+                
+                
+                
